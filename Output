@@ -13,3 +13,20 @@ class Stack:
     def isEmpty(self):
         return len(self.items) == 0
 
+# Create a stack object
+s = Stack()
+
+# Push some items
+s.push("a")
+s.push("b")
+s.push("c")
+
+# Pop and print items
+print(s.pop()) # "c"
+print(s.pop()) # "b"
+print(s.pop()) # "a"
+
+# Try to pop from an empty stack
+print(s.pop()) # Exception: Stack is empty
+
+
