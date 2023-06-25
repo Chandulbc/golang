@@ -1,8 +1,17 @@
-p=6
+# Create a queue object
+q = Queue()
 
-print(int(p**(1/2)))
+# Enqueue some items
+q.enqueue("a")
+q.enqueue("b")
+q.enqueue("c")
 
-#we can do in multiple ways
+# Dequeue and print items
+print(q.dequeue()) # "a"
+print(q.dequeue()) # "b"
+print(q.dequeue()) # "c"
 
-print(int(p**(.5))
+# Try to dequeue from an empty queue
+print(q.dequeue()) # Exception: Queue is empty
+
 
