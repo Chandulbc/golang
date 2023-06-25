@@ -1,3 +1,15 @@
-s=[1,2,3]
-p=[2,3,4]
-print(list(str(int("".join(list(map(str,s))))+int("".join(list(map(str,p))))))[::-1])
+class Stack:
+    def __init__(self):
+        self.items = []
+
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        if self.isEmpty():
+            raise Exception("Stack is empty")
+        return self.items.pop()
+
+    def isEmpty(self):
+        return len(self.items) == 0
+
