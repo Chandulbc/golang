@@ -1,0 +1,12 @@
+@timer
+def factorial(n):
+    # A recursive function to calculate the factorial of n
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+# Test the factorial function with different values of n
+factorial(5)
+factorial(10)
+factorial(20)
