@@ -1,12 +1,9 @@
-import os
+import sys
 
-print(33232)
-# get the current working directory
-current_working_directory = os.getcwd()
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python your_script.py <input>")
+        sys.exit(1)
 
-# print output to the console
-print(current_working_directory)
-
-s= input("fdfdf")
-
-print(f"{s}34343434342")
+    input_value = sys.argv[1]
+    print(f"Received input: {input_value}")
