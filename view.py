@@ -7,3 +7,4 @@ if __name__ == "__main__":
 
     input_value = sys.argv[1]
     print(f"Received input: {input_value}")
+    print(343
