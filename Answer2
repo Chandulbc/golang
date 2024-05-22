@@ -1,4 +1,4 @@
-#@timer
+
 def factorial(n):
     # A recursive function to calculate the factorial of n
     if n == 0 or n == 1:
