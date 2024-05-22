@@ -1,3 +1,12 @@
 import os
 
 print(33232)
+# get the current working directory
+current_working_directory = os.getcwd()
+
+# print output to the console
+print(current_working_directory)
+
+
+
+print("34343434342")
