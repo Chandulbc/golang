@@ -7,6 +7,6 @@ current_working_directory = os.getcwd()
 # print output to the console
 print(current_working_directory)
 
+s= input("fdfdf")
 
-
-print("34343434342")
+print(f"{s}34343434342")
